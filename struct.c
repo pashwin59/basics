@@ -8,9 +8,8 @@ struct class{
 #include <stdio.h>  
 int main() {
     struct class c1;
-    c1.id = 101;
-    c1.a = 'A';
-
+   
+scanf("%d %c", &c1.id, &c1.a);
     printf("ID: %d\n", c1.id);
     printf("Character: %c\n", c1.a);
 
